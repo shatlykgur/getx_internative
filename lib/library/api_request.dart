@@ -7,9 +7,10 @@ class ApiRequest {
   ApiRequest({this.url, this.data});
 
   Dio _dio() {
-    return Dio(BaseOptions(headers: {
-      "Authorization": "B ....",
-    }));
+    return Dio(BaseOptions(
+      headers: {"": ""},
+      baseUrl: "",
+    ));
   }
 
   void get({

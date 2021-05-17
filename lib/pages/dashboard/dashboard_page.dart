@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_internative/pages/detail/detail_page.dart';
+import 'package:getx_internative/pages/recipes/recipes_page.dart';
 import 'package:getx_internative/pages/home/home_page.dart';
 
 import 'dashboard_controller.dart';
@@ -18,6 +19,7 @@ class DashboardPage extends StatelessWidget {
               index: controller.tabIndex,
               children: [
                 HomePage(),
+                RecipesPage(),
                 DetailsPage(),
               ],
             ),
@@ -34,8 +36,12 @@ class DashboardPage extends StatelessWidget {
                 label: 'Home',
               ),
               _bottomNavigationBarItem(
-                icon: CupertinoIcons.book,
-                label: 'News',
+                icon: CupertinoIcons.pencil_outline,
+                label: 'Recipes',
+              ),
+              _bottomNavigationBarItem(
+                icon: CupertinoIcons.list_bullet,
+                label: 'Detail',
               ),
             ],
           ),
