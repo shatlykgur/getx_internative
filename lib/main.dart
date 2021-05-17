@@ -15,3 +15,11 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+//Dart programlama dilini ve Flutter framework'unu kullandım
+//Mobx State Management yöntemini kullandım
+//dio Http paketini kullandım
+//Spoonacular yemek api'sinden veri çekemedim ve başka yemek api'lerinden de
+//Çalışıp çalışmadığını kontrol etmek için basit başlangıç api'yi kullandım
+//3 Ekrandan oluşuyor
+//Getx ve dio'yu ilk defa kullandım ve bu kadar yapabildim
